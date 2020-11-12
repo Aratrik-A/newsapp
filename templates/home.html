@@ -1,0 +1,12 @@
+<h1>
+    Welcome To The Home Page
+</h1>
+
+<hr>
+
+{% for article in articles %}
+    {{article.title}}
+    {{article.body}}
+    <br />
+
+{% endfor %}
